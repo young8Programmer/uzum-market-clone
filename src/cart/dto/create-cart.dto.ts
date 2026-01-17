@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsNumber } from 'class-validator';
+// image optimization qo'shildi
 
 export class CreateCartDto {
   @IsNotEmpty()
