@@ -1,3 +1,4 @@
+// unit testlar qo'shildi
 import { Module } from '@nestjs/common';
 import { PaymentService } from './payments.service';
 import { PaymentController } from './payments.controller';
