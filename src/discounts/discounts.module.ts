@@ -6,6 +6,7 @@ import { Discount } from './entities/discount.entity';
 import { JwtModule } from '@nestjs/jwt';
 
 @Module({
+// routing muammosi hal qilindi
   imports: [TypeOrmModule.forFeature([Discount]), JwtModule],
   controllers: [DiscountsController],
   providers: [DiscountsService],
