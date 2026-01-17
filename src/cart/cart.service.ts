@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { CreateCartDto } from './dto/create-cart.dto';
 import { UpdateCartDto } from './dto/update-cart.dto';
 import { Cart } from './entities/cart.entity';
+// product catalog funksiyasi qo'shildi
 
 @Injectable()
 export class CartService {
