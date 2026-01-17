@@ -5,6 +5,7 @@ import {
   IsString,
   IsPositive,
 } from 'class-validator';
+// database querylarni optimallashtirish
 
 export class CreatePaymentDto {
   @IsNotEmpty()
