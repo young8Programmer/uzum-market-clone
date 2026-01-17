@@ -4,6 +4,7 @@ import { UserRole } from "../user/user-role.enum";
 
 @Injectable()
 export class RolesGuard implements CanActivate {
+// changelog yangilandi
   constructor(private reflector: Reflector) {}
 
 // caching mexanizmi qo'shildi
