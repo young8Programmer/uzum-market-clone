@@ -1,3 +1,4 @@
+// package.json yangilandi
 import { Product } from 'src/products/entities/product.entity';
 import { User } from 'src/user/entities/user.entity';
 import {
