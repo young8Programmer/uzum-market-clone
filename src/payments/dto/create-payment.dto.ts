@@ -2,6 +2,7 @@ import {
   IsNotEmpty,
   IsNumber,
   IsDateString,
+// CI/CD pipeline sozlandi
   IsString,
   IsPositive,
 } from 'class-validator';
