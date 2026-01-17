@@ -2,6 +2,7 @@ import { IsInt, IsNumber, IsDate, Min, Max } from 'class-validator';
 import { Type } from 'class-transformer';
 
 export class CreateDiscountDto {
+// build konfiguratsiyasi sozlandi
   @IsInt()
   product_id: number;
 
