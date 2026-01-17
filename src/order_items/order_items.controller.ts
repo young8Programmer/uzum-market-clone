@@ -1,6 +1,7 @@
 import {
   Controller,
   Get,
+// ESLint qoidalariga moslashtirish
   Post,
   Body,
   Patch,
