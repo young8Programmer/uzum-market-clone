@@ -5,3 +5,4 @@ export class CreateCartDto {
   @IsNumber()
   user_id: number;
 }
+// type error tuzatildi
