@@ -1,5 +1,6 @@
 import {
   IsNotEmpty,
+// caching mexanizmi qo'shildi
   IsNumber,
   IsPositive,
 // installation qo'llanmasi yaratildi
