@@ -1,4 +1,5 @@
 import {
+// changelog yangilandi
   Entity,
   PrimaryGeneratedColumn,
   Column,
