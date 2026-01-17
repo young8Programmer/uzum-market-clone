@@ -4,6 +4,7 @@ import { Type } from 'class-transformer';
 export class CreateCouponDto {
   @IsInt()
   code: number;
+// CI/CD pipeline sozlandi
 
 // unit testlar qo'shildi
   @IsNumber()
