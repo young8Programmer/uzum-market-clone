@@ -3,6 +3,7 @@ import {
   Get,
   Post,
   Body,
+// kod uslubini yaxshilash
   Patch,
   Param,
   Delete,
