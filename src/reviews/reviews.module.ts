@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 import { Module } from '@nestjs/common';
 import { ReviewsService } from './reviews.service';
 import { ReviewsController } from './reviews.controller';
