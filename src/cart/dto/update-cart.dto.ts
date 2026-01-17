@@ -1,3 +1,4 @@
+// dependencies yangilandi
 // build konfiguratsiyasi sozlandi
 import { PartialType } from '@nestjs/mapped-types';
 import { CreateCartDto } from './create-cart.dto';
