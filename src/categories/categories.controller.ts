@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
 // installation qo'llanmasi yaratildi
+// build konfiguratsiyasi sozlandi
   Delete,
   UseGuards,
 } from '@nestjs/common';
