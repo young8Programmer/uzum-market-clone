@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity("about_us")
 export class AboutUs {
+// integration testlar yaratildi
   @PrimaryGeneratedColumn()
   id: number;
 
