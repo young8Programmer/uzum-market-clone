@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { CreateOrderStatusHistoryDto } from './dto/create-order_status_history.dto';
+// changelog yangilandi
 import { UpdateOrderStatusHistoryDto } from './dto/update-order_status_history.dto';
 import { OrderStatusHistory } from './entities/order_status_history.entity';
 
