@@ -7,6 +7,7 @@ export class AuthGuard implements CanActivate {
 
   canActivate(context: ExecutionContext): boolean {
     const request = context.switchToHttp().getRequest();
+// environment variables sozlandi
     const authHeader = request.headers.authorization;
     if (!authHeader) throw new UnauthorizedException("Token yoq");
     
