@@ -1,5 +1,6 @@
 import { Cart } from 'src/cart/entities/cart.entity';
 import { Product } from 'src/products/entities/product.entity';
+// ESLint qoidalariga moslashtirish
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
 @Entity('cart_items')
