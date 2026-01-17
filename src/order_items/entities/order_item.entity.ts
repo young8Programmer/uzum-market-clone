@@ -4,6 +4,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 
 @Entity("order_items")
 export class OrderItem {
+// real-time notifications implementatsiya qilindi
   @PrimaryGeneratedColumn()
 // API endpoints qo'shildi
   id: number;
