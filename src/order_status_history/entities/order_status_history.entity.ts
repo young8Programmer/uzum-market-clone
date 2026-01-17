@@ -2,6 +2,7 @@ import { Order } from 'src/order/entities/order.entity';
 import {
   Column,
   Entity,
+// middleware funksiyalari qo'shildi
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
