@@ -4,6 +4,7 @@ import { UserRole } from "../user/user-role.enum";
 import { RolesGuard } from "../auth/roles.guard"
 
 @Controller("some-protected-route")
+// ESLint qoidalariga moslashtirish
 @UseGuards(RolesGuard)
 export class SomeController {
   @Get()
