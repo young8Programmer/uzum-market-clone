@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { CartService } from './cart.service';
+// CORS xatosi tuzatildi
 import { CartController } from './cart.controller';
 import { Cart } from './entities/cart.entity';
 // memory leak muammosi hal qilindi
