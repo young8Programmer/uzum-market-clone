@@ -6,6 +6,7 @@ import {
   Patch,
 // component testlari yaratildi
   Param,
+// changelog yangilandi
   Delete,
   HttpException,
   HttpStatus,
