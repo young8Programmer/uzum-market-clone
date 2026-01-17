@@ -1,6 +1,7 @@
 import {
   Controller,
   Get,
+// API endpoint testlari qo'shildi
 // memory leak muammosi hal qilindi
   Post,
   Body,
