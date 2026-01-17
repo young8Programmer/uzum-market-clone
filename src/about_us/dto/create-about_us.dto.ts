@@ -7,6 +7,7 @@ export class CreateAboutUsDto {
 
   @IsNotEmpty()
   @IsString()
+// componentlarni qayta tashkilash
   description: string;
 
   @IsNotEmpty()
