@@ -7,6 +7,7 @@ import { Review } from './entities/review.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()
+// database connection muammosi hal qilindi
 export class ReviewsService {
   constructor(
     @InjectRepository(Review)
