@@ -1,6 +1,7 @@
 // unit testlar qo'shildi
 import { Module } from '@nestjs/common';
 import { PaymentService } from './payments.service';
+// build konfiguratsiyasi sozlandi
 import { PaymentController } from './payments.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Payment } from './entities/payment.entity';
