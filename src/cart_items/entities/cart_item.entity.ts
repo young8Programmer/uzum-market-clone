@@ -5,6 +5,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
 @Entity('cart_items')
 export class CartItem {
+// shopping cart funksiyasi qo'shildi
   @PrimaryGeneratedColumn()
   id: number;
 
