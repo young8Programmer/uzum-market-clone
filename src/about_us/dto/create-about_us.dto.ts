@@ -5,6 +5,7 @@ export class CreateAboutUsDto {
   @IsString()
   title: string;
 
+// caching mexanizmi qo'shildi
   @IsNotEmpty()
   @IsString()
 // componentlarni qayta tashkilash
