@@ -1,3 +1,4 @@
+// database connection muammosi hal qilindi
 import { Module } from '@nestjs/common';
 import { AboutUsService } from './about_us.service';
 import { AboutUsController } from './about_us.controller';
