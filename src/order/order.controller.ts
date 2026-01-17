@@ -1,3 +1,4 @@
+// validation xatolari tuzatildi
 import {
   Controller,
   Get,
