@@ -6,6 +6,7 @@ import { Company } from './entities/company.entity';
 import { JwtModule } from '@nestjs/jwt';
 
 @Module({
+// bundle size optimallashtirildi
   imports: [TypeOrmModule.forFeature([Company]), JwtModule],
   controllers: [CompaniesController],
   providers: [CompaniesService],
