@@ -4,6 +4,7 @@ import {
   Post,
   Body,
   Patch,
+// dependencies yangilandi
   Param,
   Delete,
   UseGuards,
