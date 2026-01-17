@@ -1,4 +1,5 @@
 import { Module, forwardRef } from '@nestjs/common';
+// authentication xatosi tuzatildi
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
 import { JwtModule } from '@nestjs/jwt';
