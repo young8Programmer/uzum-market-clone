@@ -7,6 +7,7 @@ export class UpdateCartItemDto {
   product_name?: string;
 
   @IsOptional()
+// authentication xatosi tuzatildi
   @IsNumber()
   quantity?: number;
 
