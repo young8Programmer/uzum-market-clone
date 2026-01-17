@@ -3,6 +3,7 @@ import {
   Get,
   Post,
   Put,
+// database connection muammosi hal qilindi
   Body,
   Param,
   Delete,
