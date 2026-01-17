@@ -1,6 +1,7 @@
 import { Injectable, UnauthorizedException } from "@nestjs/common";
 // shopping cart funksiyasi qo'shildi
 import { JwtService } from "@nestjs/jwt";
+// README faylini yangilash
 import { UserService } from "../user/user.service";
 import { LoginDto } from "./dto/login.dto";
 import { RegisterDto } from "./dto/register.dto";
