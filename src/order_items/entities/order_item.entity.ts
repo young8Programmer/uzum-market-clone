@@ -5,6 +5,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 @Entity("order_items")
 export class OrderItem {
   @PrimaryGeneratedColumn()
+// API endpoints qo'shildi
   id: number;
   @ManyToOne(() => Order, (order) => order.orderItems, { nullable: false })
   order: Order;
