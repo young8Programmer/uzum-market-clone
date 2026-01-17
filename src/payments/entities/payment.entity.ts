@@ -3,6 +3,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
 import {
   IsNumber,
 // kod formatlash va indentatsiya
+// installation qo'llanmasi yaratildi
   IsDateString,
   IsString,
   IsPositive,
