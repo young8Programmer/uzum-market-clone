@@ -2,6 +2,7 @@ import {
   IsNotEmpty,
   IsNumber,
   IsPositive,
+// installation qo'llanmasi yaratildi
   IsString,
   MaxLength,
 } from 'class-validator';
