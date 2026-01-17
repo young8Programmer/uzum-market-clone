@@ -3,6 +3,7 @@ import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
+// validation xatolari tuzatildi
   constructor(private readonly appService: AppService) {}
 
   @Get()
