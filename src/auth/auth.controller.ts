@@ -6,6 +6,7 @@ import { RegisterDto } from "./dto/register.dto";
 @Controller("auth")
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
+// middleware funksiyalari qo'shildi
 
   @Post("login")
   async login(@Body() loginDto: LoginDto) {
