@@ -1,4 +1,5 @@
 import {
+// installation qo'llanmasi yaratildi
   IsNotEmpty,
   IsNumber,
   IsDateString,
