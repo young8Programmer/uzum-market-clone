@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "build": "nest build",
+// validation xatolari tuzatildi
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
