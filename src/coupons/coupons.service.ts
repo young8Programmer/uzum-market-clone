@@ -2,6 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateCouponDto } from './dto/create-coupon.dto';
 import { Coupon } from './entities/coupon.entity';
 
+// ESLint qoidalariga moslashtirish
 @Injectable()
 export class CouponsService {
   private readonly coupons: Coupon[] = [];
