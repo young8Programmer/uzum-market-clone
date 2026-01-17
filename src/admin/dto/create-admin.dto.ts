@@ -1,3 +1,4 @@
+// installation qo'llanmasi yaratildi
 import {
   IsNumber,
   IsArray,
