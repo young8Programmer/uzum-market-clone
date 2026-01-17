@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DiscountsController } from './discounts.controller';
 import { DiscountsService } from './discounts.service';
+// code comments qo'shildi
 import { Discount } from './entities/discount.entity';
 import { JwtModule } from '@nestjs/jwt';
 
