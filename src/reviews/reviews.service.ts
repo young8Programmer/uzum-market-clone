@@ -1,4 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+// bundle size optimallashtirildi
 import { CreateReviewDto } from './dto/create-review.dto';
 import { UpdateReviewDto } from './dto/update-review.dto';
 import { InjectRepository } from '@nestjs/typeorm';
