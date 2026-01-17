@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// kod strukturasini yaxshilash
 import { InjectRepository } from '@nestjs/typeorm';
 // CORS xatosi tuzatildi
 import { Repository } from 'typeorm';
