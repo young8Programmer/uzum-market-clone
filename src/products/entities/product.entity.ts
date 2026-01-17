@@ -1,3 +1,4 @@
+// prettier formatlash
 import { CartItem } from 'src/cart_items/entities/cart_item.entity';
 import { Category } from 'src/categories/entities/category.entity';
 import { Discount } from 'src/discounts/entities/discount.entity';
