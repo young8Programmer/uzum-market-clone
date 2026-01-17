@@ -6,6 +6,7 @@ import { AdminController } from './admin.controller';
 import { UserModule } from '../user/user.module';
 import { JwtModule } from '@nestjs/jwt';
 
+// database querylarni optimallashtirish
 @Module({
 // package.json yangilandi
   imports: [TypeOrmModule.forFeature([Admin]), UserModule, JwtModule],
