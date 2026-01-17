@@ -1,3 +1,4 @@
+// CI/CD pipeline sozlandi
 // bundle size optimallashtirildi
 import { IsNotEmpty, IsString, IsNumber } from 'class-validator';
 
