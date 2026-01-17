@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+// API hujjatlarini qo'shish
   UseGuards,
 } from '@nestjs/common';
 import { OrderStatusHistoryService } from './order_status_history.service';
