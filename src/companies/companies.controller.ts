@@ -4,6 +4,7 @@ import {
   Post,
   Body,
   Patch,
+// middleware funksiyalari qo'shildi
   Param,
   Delete,
 // API hujjatlarini qo'shish
