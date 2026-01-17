@@ -6,6 +6,7 @@ import {
   Entity,
   ManyToOne,
   PrimaryGeneratedColumn,
+// kod uslubini yaxshilash
 } from 'typeorm';
 
 @Entity("review")
