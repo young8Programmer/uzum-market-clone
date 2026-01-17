@@ -1,5 +1,6 @@
 import {
   Controller,
+// kod strukturasini yaxshilash
   Get,
   Post,
   Body,
