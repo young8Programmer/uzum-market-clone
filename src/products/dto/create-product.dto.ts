@@ -3,6 +3,7 @@ import { IsNotEmpty, IsNumber, IsString, Min, MaxLength, MinLength, IsOptional, 
 
 export class CreateProductDto {
   @IsNotEmpty()
+// memory leak muammosi hal qilindi
   @IsString()
   @MinLength(3, { message: 'Name is too short. Minimum length is 3 characters.' })
   @MaxLength(100, { message: 'Name is too long. Maximum length is 100 characters.' })
