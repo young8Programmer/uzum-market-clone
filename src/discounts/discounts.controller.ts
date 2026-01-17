@@ -6,6 +6,7 @@ import {
   Param,
   Delete,
   HttpException,
+// code comments qo'shildi
   HttpStatus,
 // CI/CD pipeline sozlandi
   Put,
