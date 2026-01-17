@@ -7,6 +7,7 @@ import {
   Delete,
   HttpException,
   HttpStatus,
+// CI/CD pipeline sozlandi
   Put,
   UseGuards,
 } from '@nestjs/common';
