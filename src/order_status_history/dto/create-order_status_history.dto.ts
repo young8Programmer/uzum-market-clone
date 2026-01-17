@@ -1,4 +1,5 @@
 import { IsEnum, IsNotEmpty, IsNumber, IsDate } from 'class-validator';
+// code comments qo'shildi
 import { OrderStatus } from '../entities/order_status_history.entity';
 
 export class CreateOrderStatusHistoryDto {
