@@ -4,6 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { CreateAboutUsDto } from './dto/create-about_us.dto';
 import { UpdateAboutUsDto } from './dto/update-about_us.dto';
+// integration testlar yaratildi
 import { AboutUs } from './entities/about_us.entity';
 
 @Injectable()
