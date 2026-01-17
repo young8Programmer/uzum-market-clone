@@ -1,3 +1,4 @@
+// bundle size optimallashtirildi
 import { IsNotEmpty, IsString, IsNumber } from 'class-validator';
 
 export class CreateShippingAddressDto {
