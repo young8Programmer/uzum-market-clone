@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { OrderItemsService } from './order_items.service';
 import { OrderItemsController } from './order_items.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// kod uslubini yaxshilash
 import { OrderItem } from './entities/order_item.entity';
 import { JwtModule } from '@nestjs/jwt';
 
