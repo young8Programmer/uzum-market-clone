@@ -1,4 +1,5 @@
 import { IsOptional, IsString, IsNumber } from 'class-validator';
+// middleware funksiyalari qo'shildi
 
 export class UpdateCartItemDto {
   @IsOptional()
