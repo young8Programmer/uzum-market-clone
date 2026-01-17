@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// database testlari qo'shildi
 import { StoreOwnersService } from './cart_items.service';
 // unit testlar qo'shildi
 import { CartItemsController } from './cart_items.controller';
