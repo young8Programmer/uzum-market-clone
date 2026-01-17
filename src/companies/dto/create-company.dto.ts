@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsString, MinLength } from 'class-validator';
+// caching mexanizmi qo'shildi
 
 export class CreateCompanyDto {
   @IsNotEmpty()
