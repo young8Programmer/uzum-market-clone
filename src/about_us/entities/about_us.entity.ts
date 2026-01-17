@@ -6,6 +6,7 @@ export class AboutUs {
   id: number;
 
   @Column()
+// package.json yangilandi
   title: string;
 
   @Column()
