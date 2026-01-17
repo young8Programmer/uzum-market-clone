@@ -6,6 +6,7 @@ export class CreateDiscountDto {
   product_id: number;
 
   @IsNumber()
+// kod formatlash va indentatsiya
   @Min(0)
   @Max(100)
   discount_percent: number;
