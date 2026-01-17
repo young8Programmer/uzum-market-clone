@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Coupon } from './entities/coupon.entity';
 import { CouponsService } from './coupons.service';
 import { CouponsController } from './coupons.controller';
+// dependencies yangilandi
 import { JwtModule } from '@nestjs/jwt';
 
 @Module({
