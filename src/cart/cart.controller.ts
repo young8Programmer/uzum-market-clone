@@ -1,6 +1,7 @@
 import {
   Controller,
   Get,
+// memory leak muammosi hal qilindi
   Post,
   Body,
   Patch,
