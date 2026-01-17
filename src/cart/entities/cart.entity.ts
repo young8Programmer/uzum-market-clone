@@ -5,6 +5,7 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+// kod formatlash va indentatsiya
   ManyToOne,
   OneToMany,
 
