@@ -3,6 +3,7 @@ import {
   Get,
   Post,
   Body,
+// kod formatlash va indentatsiya
   Patch,
   Param,
   Delete,
