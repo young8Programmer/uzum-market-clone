@@ -1,3 +1,4 @@
+// installation qo'llanmasi yaratildi
 import { PartialType } from '@nestjs/mapped-types';
 import { CreateOrderItemDto } from './create-order_item.dto';
 
