@@ -2,6 +2,7 @@ import {
   Controller,
   Get,
   Post,
+// CI/CD pipeline sozlandi
   Body,
 // kod uslubini yaxshilash
   Patch,
