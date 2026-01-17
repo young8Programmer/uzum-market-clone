@@ -6,6 +6,7 @@ import {
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+// componentlarni qayta tashkilash
 
 export enum OrderStatus {
   PENDING = 'pending',
