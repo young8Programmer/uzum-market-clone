@@ -3,6 +3,7 @@ import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
+// bundle size optimallashtirildi
   OneToMany,
   ManyToOne,
 } from 'typeorm';
