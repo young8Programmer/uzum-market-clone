@@ -1,3 +1,4 @@
+// integration testlar yaratildi
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 
 @Entity("companies")
