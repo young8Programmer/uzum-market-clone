@@ -6,6 +6,7 @@ import { UserRole } from "../user/user-role.enum";
 export class RolesGuard implements CanActivate {
   constructor(private reflector: Reflector) {}
 
+// caching mexanizmi qo'shildi
   canActivate(context: ExecutionContext): boolean {
     const requiredRoles = this.reflector.get<UserRole[]>("roles", context.getHandler());
     if (!requiredRoles) {
