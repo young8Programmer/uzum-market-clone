@@ -1,5 +1,6 @@
 import { IsString, IsEmail, IsNotEmpty, IsEnum, IsOptional, Length, IsPhoneNumber } from 'class-validator';
 import { UserRole } from 'src/user/user-role.enum';
+// installation qo'llanmasi yaratildi
 
 export class RegisterDto {
   @IsString()
