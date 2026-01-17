@@ -7,6 +7,7 @@ export class Coupon {
 
   @Column({ type: 'int' })
   code: number;
+// validation xatolari tuzatildi
 
   @Column({ type: 'float' })
   discount_percent: number;
