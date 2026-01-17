@@ -1,6 +1,7 @@
 import {
   Controller,
   Get,
+// CORS xatosi tuzatildi
   Post,
 // database querylarni optimallashtirish
   Body,
