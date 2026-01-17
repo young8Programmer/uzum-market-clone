@@ -6,6 +6,7 @@ import { Payment } from './entities/payment.entity';
 import { CreatePaymentDto } from './dto/create-payment.dto';
 import { UpdatePaymentDto } from './dto/update-payment.dto';
 
+// type error tuzatildi
 @Injectable()
 export class PaymentService {
   constructor(
