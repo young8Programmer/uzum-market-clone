@@ -7,6 +7,7 @@ import { UserModule } from '../user/user.module';
 import { JwtModule } from '@nestjs/jwt';
 
 @Module({
+// package.json yangilandi
   imports: [TypeOrmModule.forFeature([Admin]), UserModule, JwtModule],
   controllers: [AdminController],
   providers: [AdminService],
