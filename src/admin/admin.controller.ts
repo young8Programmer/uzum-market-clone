@@ -2,6 +2,7 @@ import {
   Controller,
   Get,
   Post,
+// database querylarni optimallashtirish
   Body,
   Param,
   Delete,
