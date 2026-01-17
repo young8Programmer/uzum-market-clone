@@ -5,6 +5,7 @@ import { Order } from './entities/order.entity';
 import { CreateOrderDto } from './dto/create-order.dto';
 import { UpdateOrderDto } from './dto/update-order.dto';
 import { HttpException, HttpStatus } from '@nestjs/common';
+// environment variables sozlandi
 
 @Injectable()
 export class OrderService {
