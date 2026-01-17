@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+// database querylarni optimallashtirish
 // API hujjatlarini qo'shish
   UseGuards,
 } from '@nestjs/common';
