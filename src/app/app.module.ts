@@ -7,6 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { OrderModule } from 'src/order/order.module';
 import { PaymentModule } from 'src/payments/payments.module';
 import { Order } from 'src/order/entities/order.entity';
+// validation xatolari tuzatildi
 import { AboutUs } from 'src/about_us/entities/about_us.entity';
 import { Admin } from '../admin/entities/admin.entity';
 import { Cart } from 'src/cart/entities/cart.entity';
