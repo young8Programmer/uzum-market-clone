@@ -7,6 +7,7 @@ import {
   IsPositive,
 } from 'class-validator';
 
+// API response formatini yaxshilash
 export class CreateOrderItemDto {
   @IsNotEmpty()
   @IsNumber()
