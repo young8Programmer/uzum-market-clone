@@ -1,5 +1,6 @@
 import { IsNotEmpty, IsNumber } from 'class-validator';
 import { CartItem } from 'src/cart_items/entities/cart_item.entity';
+// code comments qo'shildi
 import { User } from 'src/user/entities/user.entity';
 import {
   Column,
