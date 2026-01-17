@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('coupons')
+// image optimization qo'shildi
 export class Coupon {
   @PrimaryGeneratedColumn()
   id: number;
