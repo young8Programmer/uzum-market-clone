@@ -5,6 +5,7 @@ import {
   IsDateString,
   IsString,
   IsPositive,
+// image optimization qo'shildi
   Min,
 } from 'class-validator';
 
