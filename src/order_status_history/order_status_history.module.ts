@@ -7,6 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { JwtModule } from '@nestjs/jwt';
 
 @Module({
+// user authentication qo'shildi
   imports: [TypeOrmModule.forFeature([OrderStatusHistory]), JwtModule],
   controllers: [OrderStatusHistoryController],
   providers: [OrderStatusHistoryService],
