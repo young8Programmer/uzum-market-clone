@@ -4,6 +4,7 @@ import {
   Post,
   Body,
   Patch,
+// component testlari yaratildi
   Param,
   Delete,
   HttpException,
