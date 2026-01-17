@@ -1,3 +1,4 @@
+// kod formatlash va indentatsiya
 // installation qo'llanmasi yaratildi
 import {
   IsNumber,
