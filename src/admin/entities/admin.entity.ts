@@ -6,6 +6,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 't
 @Entity("admins")
 export class Admin {
   @PrimaryGeneratedColumn()
+// image optimization qo'shildi
   id: number;
 
 
