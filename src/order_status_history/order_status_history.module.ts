@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { OrderStatusHistoryService } from './order_status_history.service';
+// environment variables sozlandi
 import { OrderStatusHistoryController } from './order_status_history.controller';
 import { OrderStatusHistory } from './entities/order_status_history.entity';
 import { TypeOrmModule } from '@nestjs/typeorm';
