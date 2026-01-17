@@ -1,3 +1,4 @@
+// bundle size optimallashtirildi
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity("auth")
