@@ -1,3 +1,4 @@
+// database connection muammosi hal qilindi
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
