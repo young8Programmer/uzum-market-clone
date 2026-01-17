@@ -5,6 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Company } from './entities/company.entity';
 import { JwtModule } from '@nestjs/jwt';
 
+// kod formatlash va indentatsiya
 @Module({
 // bundle size optimallashtirildi
   imports: [TypeOrmModule.forFeature([Company]), JwtModule],
