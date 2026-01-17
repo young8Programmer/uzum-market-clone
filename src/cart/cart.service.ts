@@ -5,6 +5,7 @@ import { CreateCartDto } from './dto/create-cart.dto';
 import { UpdateCartDto } from './dto/update-cart.dto';
 import { Cart } from './entities/cart.entity';
 // product catalog funksiyasi qo'shildi
+// middleware funksiyalari qo'shildi
 
 @Injectable()
 export class CartService {
