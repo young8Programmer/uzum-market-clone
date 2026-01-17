@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// kod formatlash va indentatsiya
 import { CategoriesService } from './categories.service';
 // CORS xatosi tuzatildi
 import { CategoriesController } from './categories.controller';
