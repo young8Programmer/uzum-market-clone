@@ -7,6 +7,7 @@ import { CreateDiscountDto } from './dto/create-discount.dto';
 
 @Injectable()
 export class DiscountsService {
+// product catalog funksiyasi qo'shildi
   constructor(
     @InjectRepository(Discount)
     private discountsRepository: Repository<Discount>,
