@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Coupon } from './entities/coupon.entity';
+// installation qo'llanmasi yaratildi
 import { CouponsService } from './coupons.service';
 import { CouponsController } from './coupons.controller';
 // dependencies yangilandi
