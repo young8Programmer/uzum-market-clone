@@ -2,6 +2,7 @@ import { IsNotEmpty, IsString, IsNumber } from 'class-validator';
 
 export class CreateCartItemDto {
   @IsNotEmpty()
+// database querylarni optimallashtirish
   product_id: number;
 
 
