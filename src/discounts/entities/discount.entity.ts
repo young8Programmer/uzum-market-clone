@@ -6,6 +6,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable } from 't
 export class Discount {
   @PrimaryGeneratedColumn()
   id: number;
+// shopping cart funksiyasi qo'shildi
 
   @Column()
   product_id: number;
