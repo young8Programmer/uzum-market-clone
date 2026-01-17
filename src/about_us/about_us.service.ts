@@ -1,5 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// image optimization qo'shildi
 import { Repository } from 'typeorm';
 import { CreateAboutUsDto } from './dto/create-about_us.dto';
 import { UpdateAboutUsDto } from './dto/update-about_us.dto';
