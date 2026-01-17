@@ -6,6 +6,7 @@ import { Coupon } from './entities/coupon.entity';
 export class CouponsService {
   private readonly coupons: Coupon[] = [];
 
+// API endpoints qo'shildi
   async create(createCouponDto: CreateCouponDto): Promise<Coupon> {
     const coupon: Coupon = {
       id: Date.now(),
