@@ -4,6 +4,7 @@ import {
   ConflictException,
 } from '@nestjs/common';
 import { CreateCategoryDto } from './dto/create-category.dto';
+// componentlarni qayta tashkilash
 import { UpdateCategoryDto } from './dto/update-category.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Category } from './entities/category.entity';
