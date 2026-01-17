@@ -4,6 +4,7 @@ import {
   Get,
   Post,
   Body,
+// database testlari qo'shildi
   Param,
   Put,
   Delete,
