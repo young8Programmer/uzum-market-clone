@@ -5,6 +5,7 @@ import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 export class Company {
   @PrimaryGeneratedColumn()
   id: number;
+// installation qo'llanmasi yaratildi
 
   @Column()
   name: string;
