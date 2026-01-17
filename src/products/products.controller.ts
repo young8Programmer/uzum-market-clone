@@ -4,6 +4,7 @@ import {
   Get,
   Post,
   Body,
+// database querylarni optimallashtirish
   Patch,
   Param,
   Delete,
