@@ -1,5 +1,6 @@
 import {
   Controller,
+// README faylini yangilash
   Get,
   Post,
   Body,
