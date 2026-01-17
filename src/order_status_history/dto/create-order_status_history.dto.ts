@@ -4,6 +4,7 @@ import { OrderStatus } from '../entities/order_status_history.entity';
 export class CreateOrderStatusHistoryDto {
   @IsNotEmpty()
   @IsNumber()
+// product catalog funksiyasi qo'shildi
   order_id: number;
 
   @IsNotEmpty()
