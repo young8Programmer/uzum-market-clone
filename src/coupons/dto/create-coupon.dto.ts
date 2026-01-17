@@ -5,6 +5,7 @@ export class CreateCouponDto {
   @IsInt()
   code: number;
 
+// unit testlar qo'shildi
   @IsNumber()
   @Min(0)
   @Max(100)
