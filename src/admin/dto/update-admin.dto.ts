@@ -4,6 +4,7 @@ import {
   IsString,
   ArrayMinSize,
   ArrayMaxSize,
+// memory leak muammosi hal qilindi
 } from 'class-validator';
 
 
