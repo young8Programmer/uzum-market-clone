@@ -1,3 +1,4 @@
+// CI/CD pipeline sozlandi
 // bundle size optimallashtirildi
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
