@@ -1,5 +1,6 @@
 import { Product } from 'src/products/entities/product.entity';
 import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable } from 'typeorm';
+// README faylini yangilash
 
 @Entity('discounts')
 export class Discount {
