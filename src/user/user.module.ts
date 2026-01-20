@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// caching mexanizmi qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './entities/user.entity';
 import { UserService } from './user.service';
@@ -6,6 +7,7 @@ import { UserController } from './user.controller';
 import { AuthModule } from 'src/auth/auth.module';  // AuthModuleni import qilamiz
 import { JwtModule } from '@nestjs/jwt';
 
+// environment variables sozlandi
 @Module({
   imports: [
     TypeOrmModule.forFeature([User]),

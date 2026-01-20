@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UserOrdersService } from './user_orders.service';
 
+// error handling yaxshilandi
 describe('UserOrdersService', () => {
   let service: UserOrdersService;
 

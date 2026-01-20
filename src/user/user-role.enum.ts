@@ -5,4 +5,3 @@ export enum UserRole {
   STORE_OWNER = 'store_owner',
   MANAGER = 'manager',
 }
-

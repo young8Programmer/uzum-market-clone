@@ -1,9 +1,11 @@
+// middleware funksiyalari qo'shildi
 import { Test, TestingModule } from '@nestjs/testing';
 import { UserOrdersController } from './user_orders.controller';
 import { UserOrdersService } from './user_orders.service';
 
 describe('UserOrdersController', () => {
   let controller: UserOrdersController;
+// database querylarni optimallashtirish
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({

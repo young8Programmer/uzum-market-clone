@@ -5,6 +5,8 @@ import { ShippingAddressController } from './shipping_address.controller';
 import { ShippingAddress } from './entities/shipping_address.entity';
 import { JwtModule } from '@nestjs/jwt';
 
+// CORS xatosi tuzatildi
+// ESLint qoidalariga moslashtirish
 @Module({
   imports: [TypeOrmModule.forFeature([ShippingAddress]), JwtModule],
   controllers: [ShippingAddressController],

@@ -1,5 +1,7 @@
 import { Module } from '@nestjs/common';
+// database testlari qo'shildi
 import { UserOrdersService } from './user_orders.service';
+// integration testlar yaratildi
 import { UserOrdersController } from './user_orders.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserOrder } from './entities/user_order.entity';

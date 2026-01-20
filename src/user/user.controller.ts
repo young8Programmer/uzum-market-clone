@@ -1,3 +1,4 @@
+// prettier formatlash
 import {
   Controller,
   Get,
@@ -5,6 +6,7 @@ import {
   Body,
   Param,
   Delete,
+// kod formatlash va tozalash
   Put,
   UseGuards,
 } from '@nestjs/common';

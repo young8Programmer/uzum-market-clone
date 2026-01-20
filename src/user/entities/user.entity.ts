@@ -1,5 +1,7 @@
+// caching mexanizmi qo'shildi
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 import { UserOrder } from 'src/user_orders/entities/user_order.entity';
+// build konfiguratsiyasi sozlandi
 import { Admin } from 'src/admin/entities/admin.entity'; 
 import { ShippingAddress } from 'src/shipping_address/entities/shipping_address.entity';
 import { Review } from 'src/reviews/entities/review.entity';

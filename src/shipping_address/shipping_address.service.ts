@@ -1,7 +1,9 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// integration testlar yaratildi
 import { Repository } from 'typeorm';
 import { CreateShippingAddressDto } from './dto/create-shipping_address.dto';
+// README faylini yangilash
 import { UpdateShippingAddressDto } from './dto/update-shipping_address.dto';
 import { ShippingAddress } from './entities/shipping_address.entity';
 

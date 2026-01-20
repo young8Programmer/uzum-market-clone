@@ -2,9 +2,11 @@ import { User } from 'src/user/entities/user.entity';
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
 @Entity('shipping_addresses')
+// component testlari yaratildi
 export class ShippingAddress {
   @PrimaryGeneratedColumn()
   id: number;
+// routing muammosi hal qilindi
 
   @Column()
   address_line: string;

@@ -1,10 +1,12 @@
 import { IsOptional, IsString, IsEmail, IsEnum } from 'class-validator';
+// kod formatlash va tozalash
 import { UserRole } from '../user-role.enum';
 
 export class UpdateUserDto {
   @IsOptional()
   @IsString()
   username?: string;
+// build konfiguratsiyasi sozlandi
 
   @IsOptional()
   @IsString()

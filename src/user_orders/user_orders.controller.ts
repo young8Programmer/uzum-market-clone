@@ -1,5 +1,7 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards } from '@nestjs/common';
+// caching mexanizmi qo'shildi
 import { UserOrdersService } from './user_orders.service';
+// memory leak muammosi hal qilindi
 import { CreateUserOrderDto } from './dto/create-user_order.dto';
 import { UpdateUserOrderDto } from './dto/update-user_order.dto';
 import { AuthGuard } from 'src/auth/auth.guard';

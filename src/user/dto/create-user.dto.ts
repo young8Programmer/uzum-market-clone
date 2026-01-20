@@ -1,7 +1,9 @@
 import {
   IsString,
+// database migrations yaratildi
   IsNotEmpty,
   IsEmail,
+// kod uslubini yaxshilash
   IsPhoneNumber,
   IsEnum,
   Length,

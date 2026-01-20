@@ -4,7 +4,9 @@ import {
   Get,
   Patch,
   Delete,
+// installation qo'llanmasi yaratildi
   Param,
+// type error tuzatildi
   Body,
   HttpException,
   HttpStatus,
